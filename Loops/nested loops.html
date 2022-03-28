@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<script> 
+	var students=[];
+	var courses=[];
+	var assignments=[];
+students[0]="Ali";
+students[1]="Haroon";
+students[2]="Khaqan";
+
+courses[0]="HTML,CSS, Javascript";
+courses[1]="Python,CSS,Java";
+courses[2]="C#, .NET, React";
+
+assignments[0]='Assignment-1,Assignment-2';
+assignments[1]='Assignment-2,Assignment-3';
+assignments[2]='Assignment-4,Assignment-5';
+
+for(i=0;i<students.length;i++)
+{
+	for(j=0;j<courses.length;j++)
+	{
+		for(k=0;k<assignments.length;k++)
+		{
+			document.write("<br/>[i="+i+"][j="+j+"][k="+k+"]<br/>==============");
+
+			document.write("<br/>Student:"+students[i]);
+			document.write("<br/>Courses:"+courses[j]);
+			document.write("<br/>Assignments:"+assignments[k]);
+			document.write("<br/>==============");
+
+
+		}
+	}	
+}
+
+</script>
+</body>
+</html>
